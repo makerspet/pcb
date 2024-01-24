@@ -12,6 +12,9 @@ sample Arduino ESP32 firmware code [here](https://github.com/kaiaai/LDS02RR_ESP3
 - [3D model .STEP](output/LDS02RR_adapter.step)
 - KiCAD schematic, layout - in this folder
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=Wes9GYomUdE" target="_blank">
+ <img src="http://img.youtube.com/vi/Wes9GYomUdE/maxresdefault.jpg" alt="Xiaomi LDS02RR streams live data to ROS2 using Arduino ESP32 and Micro-ROS" width="720" height="405" border="10" /></a>
+
 ## Top
 ![PCB 3D view from top](output/LDS02RR_adapter_top.jpg)
 
