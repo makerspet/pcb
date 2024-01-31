@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\ilya\git\snoopy\kicad\lds02rr_adapter\LDS02RR_adapter.kicad_sch</source>
-    <date>12/21/2023 7:05:36 PM</date>
+    <source>C:\Users\ilya\git\pcb\lds02rr_adapter\LDS02RR_adapter.kicad_sch</source>
+    <date>1/30/2024 5:50:58 PM</date>
     <tool>Eeschema 7.0.9</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>LDS02RR adapter</title>
         <company>makerspet.com</company>
-        <rev>0.1.0</rev>
-        <date>2023-12-20</date>
+        <rev>0.2.0</rev>
+        <date>2024-01-30</date>
         <source>LDS02RR_adapter.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -24,6 +24,17 @@
     </sheet>
   </design>
   <components>
+    <comp ref="C1">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LDS02RR_adapter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b45342ae-0bc0-49be-b72c-cb49a6899a44</tstamps>
+    </comp>
     <comp ref="D1">
       <value>FS26</value>
       <footprint>Diode_SMD:D_SOD-123F</footprint>
@@ -88,6 +99,22 @@
         <pin num="2" name="Pin_2" type="passive"/>
         <pin num="3" name="Pin_3" type="passive"/>
         <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="D_Schottky">
@@ -156,7 +183,7 @@
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
     <library logical="Makerspet">
-      <uri>C:\Users\ilya\git\snoopy\kicad\lds02rr_adapter/Makerspet.kicad_sym</uri>
+      <uri>C:\Users\ilya\git\pcb\lds02rr_adapter/Makerspet.kicad_sym</uri>
     </library>
     <library logical="Transistor_FET">
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
@@ -164,6 +191,7 @@
   </libraries>
   <nets>
     <net code="1" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="MOT+" pintype="passive"/>
       <node ref="J1" pin="10" pinfunction="VCC" pintype="power_in"/>
@@ -187,6 +215,7 @@
       <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
     <net code="5" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
       <node ref="J1" pin="11" pinfunction="GND" pintype="passive"/>
       <node ref="J1" pin="12" pinfunction="GND" pintype="passive"/>
       <node ref="J1" pin="3" pinfunction="GND" pintype="passive"/>

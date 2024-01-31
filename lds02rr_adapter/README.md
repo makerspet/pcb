@@ -20,6 +20,9 @@ sample Arduino ESP32 firmware code [here](https://github.com/kaiaai/LDS02RR_ESP3
 
 # Change log
 
+## v0.2.0
+- added a bypass cap
+
 ## v0.1.0
 - initial prototype
 - PCB inserts into LDS02RR connector

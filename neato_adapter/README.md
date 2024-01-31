@@ -20,6 +20,9 @@ sample Arduino ESP32 firmware code [here](https://github.com/kaiaai/LDS02RR_ESP3
 
 # Change log
 
+## v0.2.0
+- added a bypass capacitor
+
 ## v0.1.0
 - initial prototype
 - optional LM2596 voltage regulator module provides 3.3V to motor
