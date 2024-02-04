@@ -7,7 +7,7 @@ sample Arduino ESP32 firmware code [here](https://github.com/kaiaai/LDS02RR_ESP3
 
 ## Files
 - [schematic PDF](output/LDS02RR_adapter_schematic.pdf)
-- [BoM .CSV](output/LDS02RR_adapter_BOM.csv), [BoM .XML](output/LDS02RR_adapter_BOM.xml)
+- [BoM .CSV](output/LDS02RR_adapter_BoM.csv), [BoM .XML](output/LDS02RR_adapter_BoM.xml)
 - [Gerber .ZIP](output/LDS02RR_adapter_gerber.zip)
 - [3D model .STEP](output/LDS02RR_adapter.step)
 - KiCAD schematic, layout - in this folder

@@ -5,4 +5,5 @@ PCB boards for [Maker's Pet](https://github.com/makerspet/makerspet_loki/) robot
 - Raspberry Pi Pico breakout [board](/pico_breakout_head/) for robot's head
 - Raspberry Pi Pico breakout [board](/pico_breakout_body/) for robot's lower body
 - adapter [board](/lds02rr_adapter/) for Xiaomi 1st gen LDS02RR laser distance scan sensor
-- adapter [board](/neato_adapter/) for Neato laser distance scan sensor
+- adapter [board](/neato_delta_adapter/) for Neato XV1, 3irobotix Delta2G laser distance scan sensors
+- convenience adapter [board](/lds_breakout/) for YDLIDAR X4, YDLIDAR X2/X2L, YDLIDAR X3/X3PRO, Hitachi-LG HLS-LFCD2, RPLIDAR A1
