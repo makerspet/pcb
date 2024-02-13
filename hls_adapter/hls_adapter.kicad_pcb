@@ -6,9 +6,9 @@
 
   (paper "A5")
   (title_block
-    (title "Neato XV11/Delta-2G LDS Adaptor")
-    (date "2024-01-31")
-    (rev "0.3.0")
+    (title "HLS Adaptor")
+    (date "2024-02-13")
+    (rev "0.1.0")
     (company "makerspet.com")
   )
 

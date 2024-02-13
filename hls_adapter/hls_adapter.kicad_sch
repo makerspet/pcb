@@ -5,8 +5,8 @@
   (paper "A5")
 
   (title_block
-    (title "LDS Breakout")
-    (date "2024-02-02")
+    (title "HLS Adapter")
+    (date "2024-02-13")
     (rev "0.1.0")
     (company "makerspet.com")
   )
@@ -535,7 +535,7 @@
     )
     (pin "1" (uuid df1af45b-596c-4db3-9043-545c3a8bd07e))
     (instances
-      (project "lds_breakout"
+      (project "hls_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "#PWR02") (unit 1)
         )
@@ -565,7 +565,7 @@
     )
     (pin "1" (uuid 062c1ebd-ccf1-4e89-bedf-f4ece9e8c006))
     (instances
-      (project "lds_breakout"
+      (project "hls_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "#PWR05") (unit 1)
         )
@@ -601,7 +601,7 @@
     (pin "6" (uuid 163a84d4-6e2e-49de-8cfe-6aabb482bc60))
     (pin "7" (uuid b67d34bb-66f7-4f88-9a47-677c49ec6afe))
     (instances
-      (project "lds_breakout"
+      (project "hls_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "J1") (unit 1)
         )
@@ -630,7 +630,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "lds_breakout"
+      (project "hls_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "H2") (unit 1)
         )
@@ -655,7 +655,7 @@
     )
     (pin "1" (uuid 489c6210-f229-4861-b026-ce5d3a5b6229))
     (instances
-      (project "lds_breakout"
+      (project "hls_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "#PWR04") (unit 1)
         )
@@ -692,7 +692,7 @@
     (pin "2" (uuid 4ce79e46-fe81-48fa-95bf-f033351cbd80))
     (pin "1" (uuid 67685108-5697-40f3-8ccc-bb02f6e7c941))
     (instances
-      (project "lds_breakout"
+      (project "hls_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "J2") (unit 1)
         )
@@ -720,7 +720,7 @@
     (pin "1" (uuid 976e5681-b797-4d5e-8147-2eac5c01893c))
     (pin "3" (uuid 83db56a8-8357-4d82-973b-ef2fb5b08e31))
     (instances
-      (project "lds_breakout"
+      (project "hls_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "J3") (unit 1)
         )
@@ -745,7 +745,7 @@
     )
     (pin "1" (uuid 08759e31-8d7f-4bf9-b33b-13edcdabdf13))
     (instances
-      (project "lds_breakout"
+      (project "hls_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "#PWR01") (unit 1)
         )
@@ -775,7 +775,7 @@
     )
     (pin "1" (uuid 0c497116-21f8-4dd5-976d-7a6a07a442dc))
     (instances
-      (project "lds_breakout"
+      (project "hls_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "#PWR06") (unit 1)
         )
@@ -804,7 +804,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "lds_breakout"
+      (project "hls_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "H1") (unit 1)
         )
@@ -829,7 +829,7 @@
     )
     (pin "1" (uuid 8c5c4466-7689-47ea-a908-8cb7756b2ec9))
     (instances
-      (project "lds_breakout"
+      (project "hls_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "#PWR03") (unit 1)
         )
