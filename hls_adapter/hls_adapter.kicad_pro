@@ -407,7 +407,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Neato_adapter.kicad_pro",
+    "filename": "hls_adapter.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -443,7 +443,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "output/Neato_adapter.step",
+      "step": "output/HLS_adapter.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

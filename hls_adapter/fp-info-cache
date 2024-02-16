@@ -1,4 +1,4 @@
-22460157769955334
+22461865912531093
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62509,6 +62509,13 @@ DC-DC voltage regulator module
 0
 4
 4
+Makerspet
+Molex_PicoBlade_53047-0810_1x08_P1.25mm_Vertical
+Molex PicoBlade Connector System, 53047-0810, 8 Pins per row (http://www.molex.com/pdm_docs/sd/530470610_sd.pdf), generated with kicad-footprint-generator
+connector Molex PicoBlade side entry
+0
+8
+8
 Makerspet
 SMW200_02
 JST PH series connector, B2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
