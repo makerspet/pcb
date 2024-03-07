@@ -6,8 +6,8 @@
 
   (title_block
     (title "LDS02RR adapter")
-    (date "2024-01-30")
-    (rev "0.2.0")
+    (date "2024-03-06")
+    (rev "0.2.1")
     (company "makerspet.com")
   )
 
@@ -994,10 +994,10 @@
     (property "Reference" "C1" (at 46.228 61.976 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100uF" (at 46.228 64.516 0)
+    (property "Value" "22uF" (at 46.228 64.516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 43.1292 67.056 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 43.1292 67.056 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 42.164 63.246 0)

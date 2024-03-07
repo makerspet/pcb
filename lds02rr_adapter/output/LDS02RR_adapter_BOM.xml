@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>C:\Users\ilya\git\pcb\lds02rr_adapter\LDS02RR_adapter.kicad_sch</source>
-    <date>1/30/2024 5:50:58 PM</date>
+    <date>3/6/2024 7:48:53 PM</date>
     <tool>Eeschema 7.0.9</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>LDS02RR adapter</title>
         <company>makerspet.com</company>
-        <rev>0.2.0</rev>
-        <date>2024-01-30</date>
+        <rev>0.2.1</rev>
+        <date>2024-03-06</date>
         <source>LDS02RR_adapter.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -25,8 +25,8 @@
   </design>
   <components>
     <comp ref="C1">
-      <value>100uF</value>
-      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LDS02RR_adapter.kicad_sch"/>
