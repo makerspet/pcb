@@ -15,6 +15,11 @@
 
 # Change log
 
+## v1.2.0
+- changed JST PH extension connectors to JST ZH
+- changed JST PH 7-pin LDS connector to 6-pin
+  - removed unused pin
+
 ## v1.1.0
 - 3D-printed board enclosure to prevent accidental 24V shorts
 - merged GPIO, US-100 sonar headers into a single 12-pin header

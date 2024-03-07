@@ -53,7 +53,7 @@
   (pad "2" thru_hole circle (at 20 8.75) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 7920ab4e-9aa8-4ea7-b68f-661281b90e4a))
   (pad "3" thru_hole circle (at 20 -8.75) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 871eae5a-86e9-4484-a716-65b8538004bb))
   (pad "4" thru_hole circle (at -20 -8.75) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 08273d32-9091-422f-902e-bca78cac619b))
-  (model "C:/Users/ilya/git/snoopy/kicad/step/LM2596 DC-DC StepDown Converter v1.step"
+  (model "C:/Users/ilya/git/pcb/step/LM2596 DC-DC StepDown Converter v1.step"
     (offset (xyz 21.5 -0.5 12.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

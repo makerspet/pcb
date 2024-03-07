@@ -1,6 +1,8 @@
 # Adapter PCB for HLS-LFCD2, HLS-LFCD3 LiDAR/LDS
 
-Adapter PCB for HitachiG Data Storage HLS-LFCD2 and HLS-LFCD3 LiDAR/LDS sensors.
+Adapter PCB for HitachiG Data Storage LiDAR/LDS sensors:
+- HLS-LFCD2
+- HLS-LFCD3
 
 This [Arduino LDS library](https://github.com/kaiaai/LDS) supports all these sensor models.
 

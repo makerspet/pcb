@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\ilya\git\pcb\hls_adapter\hls_adapter.kicad_sch</source>
-    <date>2/15/2024 10:35:49 PM</date>
+    <date>3/6/2024 8:05:39 PM</date>
     <tool>Eeschema 7.0.9</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -25,8 +25,8 @@
   </design>
   <components>
     <comp ref="C1">
-      <value>100uF</value>
-      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hls_adapter.kicad_sch"/>

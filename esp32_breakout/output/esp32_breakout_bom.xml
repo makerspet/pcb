@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\ilya\git\snoopy\kicad\esp32_breakout\esp32_breakout.kicad_sch</source>
-    <date>12/30/2023 9:12:20 PM</date>
+    <source>C:\Users\ilya\git\pcb\esp32_breakout\esp32_breakout.kicad_sch</source>
+    <date>3/6/2024 11:09:19 PM</date>
     <tool>Eeschema 7.0.9</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Maker's Pet ESP32 Breakout</title>
         <company>Maker's Pet</company>
-        <rev>1.1.0</rev>
-        <date>2023-12-29</date>
+        <rev>1.2.0</rev>
+        <date>2024-03-06</date>
         <source>esp32_breakout.kicad_sch</source>
         <comment number="1" value="makerspet.com"/>
         <comment number="2" value=""/>
@@ -60,50 +60,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1e8aeb03-a658-45ec-8113-09124d768c6f</tstamps>
     </comp>
-    <comp ref="H1">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="esp32_breakout.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>22206c9a-1c96-4cb2-87f4-8e5d109621c1</tstamps>
-    </comp>
-    <comp ref="H2">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="esp32_breakout.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>8e43479a-e791-4eef-99eb-2cdd8b4926db</tstamps>
-    </comp>
-    <comp ref="H3">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="esp32_breakout.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>6e2b2350-0e51-499a-9a11-4a7690b4d5d1</tstamps>
-    </comp>
-    <comp ref="H4">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="esp32_breakout.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5ddcca87-43d3-4042-9bf1-95121182034a</tstamps>
-    </comp>
     <comp ref="J1">
       <value>JST B5B-PH-K-S</value>
       <footprint>Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical</footprint>
@@ -127,15 +83,15 @@
       <tstamps>263db784-75b9-42a9-923b-5359ded67fdc</tstamps>
     </comp>
     <comp ref="J3">
-      <value>JST B7B-PH-K-S</value>
-      <footprint>Connector_JST:JST_PH_B7B-PH-K_1x07_P2.00mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <value>JST B6B-PH-K-S</value>
+      <footprint>Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="esp32_breakout.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>348d491a-dfa5-4202-8910-e55ff3187a67</tstamps>
+      <tstamps>99f672e9-8930-463e-9cb0-958773d2304f</tstamps>
     </comp>
     <comp ref="J4">
       <value>XT30U-M</value>
@@ -158,8 +114,8 @@
       <tstamps>2c53bbca-15a0-4b32-9749-5969e5c221ab</tstamps>
     </comp>
     <comp ref="J9">
-      <value>JST B6B-PH-K-S</value>
-      <footprint>Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical</footprint>
+      <value>JST B6B-ZR</value>
+      <footprint>Makerspet:JST_ZH_B6B-ZR_1x06_P1.50mm_Vertical</footprint>
       <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="esp32_breakout.kicad_sch"/>
@@ -169,8 +125,8 @@
       <tstamps>e23c2331-fda6-4baa-a4d0-fea708cca4a0</tstamps>
     </comp>
     <comp ref="J10">
-      <value>JST B6B-PH-K-S</value>
-      <footprint>Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical</footprint>
+      <value>JST B6B-ZR</value>
+      <footprint>Makerspet:JST_ZH_B6B-ZR_1x06_P1.50mm_Vertical</footprint>
       <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="esp32_breakout.kicad_sch"/>
@@ -345,27 +301,6 @@
         <pin num="6" name="Pin_6" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector_Generic" part="Conn_01x07">
-      <description>Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x07</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-        <pin num="4" name="Pin_4" type="passive"/>
-        <pin num="5" name="Pin_5" type="passive"/>
-        <pin num="6" name="Pin_6" type="passive"/>
-        <pin num="7" name="Pin_7" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Connector_Generic" part="Conn_01x12">
       <description>Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
@@ -459,7 +394,7 @@
       <fields>
         <field name="Reference">U1</field>
         <field name="Value">ESP32 DEV KIT DOIT 30-pin</field>
-        <field name="Footprint">Library:DIP-30_1000_ELL</field>
+        <field name="Footprint">Makerspet:ESP-32</field>
       </fields>
       <pins>
         <pin num="1" name="3V3" type="power_out"/>
@@ -538,7 +473,7 @@
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
     <library logical="Makerspet">
-      <uri>C:\Users\ilya\git\snoopy\kicad\esp32_breakout/Makerspet.kicad_sym</uri>
+      <uri>C:\Users\ilya\git\pcb\esp32_breakout/Makerspet.kicad_sym</uri>
     </library>
     <library logical="Mechanical">
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
@@ -625,7 +560,7 @@
       <node ref="U1" pin="11" pinfunction="GPIO21/I2C_SDA" pintype="bidirectional"/>
     </net>
     <net code="15" name="/LDS_EN">
-      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U1" pin="10" pinfunction="GPIO19/VSPI_MISO" pintype="bidirectional"/>
     </net>
     <net code="16" name="/LDS_MOT_PWM">
@@ -710,22 +645,19 @@
       <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
     </net>
-    <net code="34" name="unconnected-(J3-Pin_6-Pad6)">
-      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
-    </net>
-    <net code="35" name="unconnected-(SW1-C-Pad3)">
+    <net code="34" name="unconnected-(SW1-C-Pad3)">
       <node ref="SW1" pin="3" pinfunction="C" pintype="passive+no_connect"/>
     </net>
-    <net code="36" name="unconnected-(U1-CP2102_GPIO1{slash}UART0_TX-Pad13)">
+    <net code="35" name="unconnected-(U1-CP2102_GPIO1{slash}UART0_TX-Pad13)">
       <node ref="U1" pin="13" pinfunction="CP2102_GPIO1/UART0_TX" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="37" name="unconnected-(U1-CP2102_GPIO3{slash}UART0_RX-Pad12)">
+    <net code="36" name="unconnected-(U1-CP2102_GPIO3{slash}UART0_RX-Pad12)">
       <node ref="U1" pin="12" pinfunction="CP2102_GPIO3/UART0_RX" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="38" name="unconnected-(U1-EN-Pad16)">
+    <net code="37" name="unconnected-(U1-EN-Pad16)">
       <node ref="U1" pin="16" pinfunction="EN" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="39" name="unconnected-(U1-LED_GPIO2{slash}ADC2_C2{slash}TOUCH2{slash}RTC_GPIO12-Pad4)">
+    <net code="38" name="unconnected-(U1-LED_GPIO2{slash}ADC2_C2{slash}TOUCH2{slash}RTC_GPIO12-Pad4)">
       <node ref="U1" pin="4" pinfunction="LED_GPIO2/ADC2_C2/TOUCH2/RTC_GPIO12" pintype="bidirectional+no_connect"/>
     </net>
   </nets>

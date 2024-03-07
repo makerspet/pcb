@@ -15,16 +15,20 @@
 
 # Change log
 
-## v0.2.0 PCB prototype
+## v0.2.1
+- changed host connector from JST PH to JST ZH
+- bugfix servo, touch sockets to headers
+
+## v0.2.0
 - fan N-MOSFET fix
 - removed fan diode
   - unnecessary for such a small motor
 
-## v0.1.1 PCB prototype
+## v0.1.1
 - use same diode components
 - removed fan MOSFET gate resistor
 
-## v0.1 PCB prototype
+## v0.1
 - I2C host interface connector
 - fan connector
 - connector for 3 servos

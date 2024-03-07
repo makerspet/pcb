@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\ilya\git\snoopy\kicad\pico_breakout_head\pico_breakout_head.kicad_sch</source>
-    <date>12/26/2023 1:05:24 AM</date>
+    <source>C:\Users\ilya\git\pcb\pico_breakout_head\pico_breakout_head.kicad_sch</source>
+    <date>3/6/2024 9:09:03 PM</date>
     <tool>Eeschema 7.0.9</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Raspberry Pi Pico Breakout - Head</title>
         <company>Maker's Pet</company>
-        <rev>0.2.0</rev>
-        <date>2023-12-26</date>
+        <rev>0.2.1</rev>
+        <date>2024-03-06</date>
         <source>pico_breakout_head.kicad_sch</source>
         <comment number="1" value="makerspet.com"/>
         <comment number="2" value=""/>
@@ -36,50 +36,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9acd7bd2-1f09-4c8e-b7cd-80f1061c339f</tstamps>
     </comp>
-    <comp ref="H1">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="pico_breakout_head.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>e5cfbc85-d5e0-43f1-bbe9-f4677d10a967</tstamps>
-    </comp>
-    <comp ref="H2">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="pico_breakout_head.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>14092665-24f9-4d8e-a278-b80c4cfd09ee</tstamps>
-    </comp>
-    <comp ref="H3">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="pico_breakout_head.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>93a69d28-bb9e-478c-9e73-f5dcf9dfeb29</tstamps>
-    </comp>
-    <comp ref="H4">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="pico_breakout_head.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>bdc23ca6-4394-430f-9437-d69276560a5a</tstamps>
-    </comp>
     <comp ref="J1">
       <value>HDR F 2.54MM 20-pin VERT</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical</footprint>
@@ -103,8 +59,8 @@
       <tstamps>34c58614-0b88-455b-af0a-243448befbb3</tstamps>
     </comp>
     <comp ref="J3">
-      <value>JST B6B-PH-K-S</value>
-      <footprint>Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical</footprint>
+      <value>JST B6B-ZR</value>
+      <footprint>Makerspet:JST_ZH_B6B-ZR_1x06_P1.50mm_Vertical</footprint>
       <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="pico_breakout_head.kicad_sch"/>
@@ -114,8 +70,8 @@
       <tstamps>42820ab0-60b7-4036-96d2-e1a95acc5a4e</tstamps>
     </comp>
     <comp ref="J4">
-      <value>HDR M 2.54MM 4p VERT</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <value>HDR M 2.54MM 4P VERT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
       <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="pico_breakout_head.kicad_sch"/>
@@ -136,15 +92,15 @@
       <tstamps>9e78b4fc-ef6a-4131-b392-8122d67894b8</tstamps>
     </comp>
     <comp ref="J6">
-      <value>HDR M 2.54MM 9p VERT</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical</footprint>
+      <value>HDR M 2.54MM 9P VERT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical</footprint>
       <libsource lib="Connector_Generic" part="Conn_01x09" description="Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="pico_breakout_head.kicad_sch"/>
       <property name="ki_description" value="Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>d144623b-0910-45d0-a66c-ed1cd51ea26e</tstamps>
+      <tstamps>d8733d72-e100-4485-9cc5-1419f99d7f82</tstamps>
     </comp>
     <comp ref="Q1">
       <value>AS2302</value>

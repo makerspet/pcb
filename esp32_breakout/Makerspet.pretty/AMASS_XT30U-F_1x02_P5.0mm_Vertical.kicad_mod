@@ -53,7 +53,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 43af477f-41d6-4988-a469-e50d021e7ebd))
   (pad "1" thru_hole rect (at 0 0) (size 3.8 3.8) (drill 2.7) (layers "*.Cu" "*.Mask") (tstamp 42eb4bb0-cab3-4ff6-883f-d67f54fc761e))
   (pad "2" thru_hole circle (at 5 0) (size 4 4) (drill 2.7) (layers "*.Cu" "*.Mask") (tstamp b5500424-50b0-4d6b-8ff1-611f94130ef3))
-  (model "C:/Users/ilya/git/snoopy/kicad/step/XT30U-M.step"
+  (model "C:/Users/ilya/git/pcb/step/XT30U-M.step"
     (offset (xyz 7.5 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
