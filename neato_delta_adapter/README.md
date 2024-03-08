@@ -21,6 +21,10 @@ This [Arduino LDS library](https://github.com/kaiaai/LDS) supports all these sen
 
 # Change log
 
+## v0.3.1
+- 10K resistor inline with Delta-2A/B/G TX
+  - Delta-2A TX is 5V
+
 ## v0.3.0
 - added Delta-2G connector
 

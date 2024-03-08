@@ -6,8 +6,8 @@
 
   (title_block
     (title "Neato XV11/Delta-2G LDS adapter")
-    (date "2024-01-31")
-    (rev "0.3.0")
+    (date "2024-03-08")
+    (rev "0.3.1")
     (company "makerspet.com")
   )
 
@@ -299,6 +299,61 @@
         )
         (pin passive line (at 3.81 0 180) (length 2.54)
           (name "A" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:R_Small_US" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "R" (at 0.762 0.508 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "R_Small_US" (at 0.762 -1.016 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "r resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Resistor, small US symbol" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "R_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "R_Small_US_1_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 1.016 -0.381)
+            (xy 0 -0.762)
+            (xy -1.016 -1.143)
+            (xy 0 -1.524)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 1.524)
+            (xy 1.016 1.143)
+            (xy 0 0.762)
+            (xy -1.016 0.381)
+            (xy 0 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (pin passive line (at 0 2.54 270) (length 1.016)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 90) (length 1.016)
+          (name "~" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
       )
@@ -793,7 +848,7 @@
     (stroke (width 0) (type default))
     (uuid 017beb9a-d5ad-4a91-badd-59b22c46d3ce)
   )
-  (wire (pts (xy 74.422 24.892) (xy 74.422 33.782))
+  (wire (pts (xy 73.152 24.892) (xy 73.152 33.782))
     (stroke (width 0) (type default))
     (uuid 02a7bd54-8ce9-4736-98c9-fcb3663e003e)
   )
@@ -809,10 +864,6 @@
     (stroke (width 0) (type default))
     (uuid 230447c1-555b-42ce-8acb-4c327437db0e)
   )
-  (wire (pts (xy 71.374 22.352) (xy 87.63 22.352))
-    (stroke (width 0) (type default))
-    (uuid 2c1c26a3-5162-4b5b-afb8-ef04bbdb455d)
-  )
   (wire (pts (xy 75.946 83.058) (xy 78.74 83.058))
     (stroke (width 0) (type default))
     (uuid 376a520e-488a-4529-97d4-d964749a6d9e)
@@ -820,6 +871,10 @@
   (wire (pts (xy 71.374 43.942) (xy 92.202 43.942))
     (stroke (width 0) (type default))
     (uuid 39cd5b52-5970-4c5d-9af0-ddc213ab00d4)
+  )
+  (wire (pts (xy 82.042 22.352) (xy 87.63 22.352))
+    (stroke (width 0) (type default))
+    (uuid 3a0d8f21-5280-48f8-9575-5db71987fa69)
   )
   (wire (pts (xy 90.424 82.042) (xy 90.424 83.058))
     (stroke (width 0) (type default))
@@ -833,7 +888,7 @@
     (stroke (width 0) (type default))
     (uuid 40b07050-f41a-4b5b-ba27-9072d57d6404)
   )
-  (wire (pts (xy 71.374 24.892) (xy 74.422 24.892))
+  (wire (pts (xy 71.374 24.892) (xy 73.152 24.892))
     (stroke (width 0) (type default))
     (uuid 466e5e76-11e4-4c45-b408-7fcb216ffbbe)
   )
@@ -885,6 +940,10 @@
     (stroke (width 0) (type default))
     (uuid 82aba660-e47d-486a-8e59-21693998f0fd)
   )
+  (wire (pts (xy 71.374 22.352) (xy 76.962 22.352))
+    (stroke (width 0) (type default))
+    (uuid 840b691c-629a-44a0-958e-3c7738a6f29f)
+  )
   (wire (pts (xy 109.728 54.61) (xy 109.728 55.88))
     (stroke (width 0) (type default))
     (uuid 8503254d-feb9-482b-ba00-09f6d6205d6e)
@@ -921,7 +980,7 @@
     (stroke (width 0) (type default))
     (uuid b00c97c9-e22f-49b1-ae04-99aab2d0e1b1)
   )
-  (wire (pts (xy 71.374 27.432) (xy 77.978 27.432))
+  (wire (pts (xy 71.374 27.432) (xy 74.676 27.432))
     (stroke (width 0) (type default))
     (uuid b0679c87-db56-4450-93a9-e7e781664c85)
   )
@@ -929,7 +988,7 @@
     (stroke (width 0) (type default))
     (uuid b9e650b3-8f8d-42d7-8583-91da64fa2f4b)
   )
-  (wire (pts (xy 77.978 18.288) (xy 77.978 27.432))
+  (wire (pts (xy 74.676 19.812) (xy 74.676 27.432))
     (stroke (width 0) (type default))
     (uuid bc1985bc-efe8-45b1-8d61-5453c0c6d962)
   )
@@ -966,7 +1025,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 688ab7c3-3f6d-4bf6-8ed6-312666ea4695)
   )
-  (text "3irobotics\nDelta2G" (at 51.054 27.686 0)
+  (text "3irobotics\nDelta-2A/B/G" (at 43.18 27.686 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e942ac73-411c-4ac3-9e50-1419985a3cec)
   )
@@ -991,9 +1050,9 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 87305644-9f03-4a94-98a6-40df41fda21b)
   )
-  (label "TX" (at 81.026 22.352 0) (fields_autoplaced)
+  (label "TX" (at 84.328 22.352 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid f093998e-5153-4959-93b6-4e2ddfe7f11b)
+    (uuid be8b9d88-4d28-404c-b252-3f5338eef0ae)
   )
   (label "TX" (at 123.698 52.07 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1017,7 +1076,7 @@
     )
     (pin "1" (uuid fb3c0266-a24c-4729-b37a-9af855e5be2c))
     (instances
-      (project "Neato_adapter"
+      (project "neato_delta_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "#PWR05") (unit 1)
         )
@@ -1047,7 +1106,7 @@
     )
     (pin "1" (uuid f8b1dbf0-a809-4640-a7d4-c99403f52183))
     (instances
-      (project "Neato_adapter"
+      (project "neato_delta_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "#PWR08") (unit 1)
         )
@@ -1060,24 +1119,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 74.422 33.782 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 73.152 33.782 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a1db88d-fbad-4b47-873a-6d15089828d9)
-    (property "Reference" "#PWR013" (at 74.422 40.132 0)
+    (property "Reference" "#PWR013" (at 73.152 40.132 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 74.422 38.862 0)
+    (property "Value" "GND" (at 73.152 38.862 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 74.422 33.782 0)
+    (property "Footprint" "" (at 73.152 33.782 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 74.422 33.782 0)
+    (property "Datasheet" "" (at 73.152 33.782 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 07d6511a-026b-43f4-b948-1127f9c14401))
     (instances
-      (project "Neato_adapter"
+      (project "neato_delta_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "#PWR013") (unit 1)
         )
@@ -1110,7 +1169,7 @@
     (pin "4" (uuid eb1ec3ad-3d44-4b77-bb6b-c14f2559a9bd))
     (pin "1" (uuid 0191c376-721e-40fa-929d-f24543f3920d))
     (instances
-      (project "Neato_adapter"
+      (project "neato_delta_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "J1") (unit 1)
         )
@@ -1135,7 +1194,7 @@
     )
     (pin "1" (uuid e9d0f2a7-11e5-4127-bc86-04006b425f8d))
     (instances
-      (project "Neato_adapter"
+      (project "neato_delta_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "#PWR012") (unit 1)
         )
@@ -1149,12 +1208,12 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x05") (at 66.294 27.432 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a9506ca-6a5c-4153-a0c9-07ef27b2cb3c)
     (property "Reference" "J4" (at 66.294 16.51 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "DNP JST PH2.0 B5B Vert" (at 66.294 19.05 0)
+    (property "Value" "DNP JST PH2.0 B5B Vert" (at 62.738 26.162 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical" (at 66.294 27.432 0)
@@ -1169,7 +1228,7 @@
     (pin "3" (uuid 017c7064-fd3b-4719-9c4a-85a82ba8fdf8))
     (pin "2" (uuid ac43c072-26db-4e86-9780-fa7e49f09efa))
     (instances
-      (project "Neato_adapter"
+      (project "neato_delta_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "J4") (unit 1)
         )
@@ -1194,7 +1253,7 @@
     )
     (pin "1" (uuid 22f557b6-a2c6-44c5-a790-093aae7849ec))
     (instances
-      (project "Neato_adapter"
+      (project "neato_delta_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "#PWR09") (unit 1)
         )
@@ -1224,7 +1283,7 @@
     )
     (pin "1" (uuid 8bffe354-2aae-4134-ad2a-ba668e3ea568))
     (instances
-      (project "Neato_adapter"
+      (project "neato_delta_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "#PWR02") (unit 1)
         )
@@ -1255,7 +1314,7 @@
     (pin "1" (uuid 35269113-6c7a-4587-a915-eb926317a241))
     (pin "2" (uuid 187fc283-6157-4dc7-bb27-8f1a60fdfc0f))
     (instances
-      (project "Neato_adapter"
+      (project "neato_delta_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "C1") (unit 1)
         )
@@ -1283,7 +1342,7 @@
     (pin "3" (uuid f93a3c02-3fd1-43ee-8a5a-bcdaf6912e52))
     (pin "1" (uuid bdff8bc0-190f-4760-946c-c275152e2209))
     (instances
-      (project "Neato_adapter"
+      (project "neato_delta_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "J3") (unit 1)
         )
@@ -1309,7 +1368,7 @@
     (pin "1" (uuid 257ac461-0610-483f-9540-d1a9c97830d9))
     (pin "2" (uuid 1ff2b946-2c59-4b03-adac-dcf92cd275d9))
     (instances
-      (project "Neato_adapter"
+      (project "neato_delta_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "J2") (unit 1)
         )
@@ -1334,7 +1393,7 @@
     )
     (pin "1" (uuid b5a7fbf7-f3cb-4f23-86e6-e8cdca2d051e))
     (instances
-      (project "Neato_adapter"
+      (project "neato_delta_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "#PWR010") (unit 1)
         )
@@ -1361,7 +1420,7 @@
     (pin "2" (uuid f2b2604f-3d00-43d9-9b0b-59f6b15da601))
     (pin "1" (uuid 0b30906b-23bf-49e8-803d-8053fbe5e8f8))
     (instances
-      (project "Neato_adapter"
+      (project "neato_delta_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "JP1") (unit 1)
         )
@@ -1385,7 +1444,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "Neato_adapter"
+      (project "neato_delta_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "H2") (unit 1)
         )
@@ -1419,7 +1478,7 @@
     (pin "1" (uuid 916a46f5-3333-4c1c-8551-da63fba24722))
     (pin "3" (uuid d6fdb2a0-b4d9-44e0-b494-664a5346c3ef))
     (instances
-      (project "Neato_adapter"
+      (project "neato_delta_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "U1") (unit 1)
         )
@@ -1444,7 +1503,7 @@
     )
     (pin "1" (uuid 49674007-4417-41d6-a36b-77e854857e01))
     (instances
-      (project "Neato_adapter"
+      (project "neato_delta_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "#PWR07") (unit 1)
         )
@@ -1475,7 +1534,7 @@
     (pin "2" (uuid 967c899d-e9c9-4589-9ac1-bd1c67a9df48))
     (pin "1" (uuid 75d00c51-019a-442b-be51-a8c6c52f3ffe))
     (instances
-      (project "Neato_adapter"
+      (project "neato_delta_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "D1") (unit 1)
         )
@@ -1505,7 +1564,7 @@
     )
     (pin "1" (uuid 03d0bc80-20ba-427a-9462-bfc7d173df52))
     (instances
-      (project "Neato_adapter"
+      (project "neato_delta_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "#PWR06") (unit 1)
         )
@@ -1518,24 +1577,24 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 77.978 18.288 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 74.676 19.812 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aab18550-de87-4132-a680-3d3809797d5b)
-    (property "Reference" "#PWR014" (at 77.978 22.098 0)
+    (property "Reference" "#PWR014" (at 74.676 23.622 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 77.978 14.478 0)
+    (property "Value" "+5V" (at 74.676 16.002 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 77.978 18.288 0)
+    (property "Footprint" "" (at 74.676 19.812 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 77.978 18.288 0)
+    (property "Datasheet" "" (at 74.676 19.812 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 684dfe51-67ec-4fc6-b14f-7bdb4e4c9636))
     (instances
-      (project "Neato_adapter"
+      (project "neato_delta_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "#PWR014") (unit 1)
         )
@@ -1565,7 +1624,7 @@
     )
     (pin "1" (uuid b1d4750d-674f-4848-bd1c-db47103f4d1b))
     (instances
-      (project "Neato_adapter"
+      (project "neato_delta_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "#PWR03") (unit 1)
         )
@@ -1594,7 +1653,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "Neato_adapter"
+      (project "neato_delta_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "H1") (unit 1)
         )
@@ -1619,7 +1678,7 @@
     )
     (pin "1" (uuid b079141c-e208-4d69-b4eb-1e0cb0b3d4f9))
     (instances
-      (project "Neato_adapter"
+      (project "neato_delta_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "#PWR01") (unit 1)
         )
@@ -1627,6 +1686,37 @@
       (project "esp32_breakout"
         (path "/e24ae185-8f18-408c-aee8-f727519bade3"
           (reference "#PWR012") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small_US") (at 79.502 22.352 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d14d7ea9-aaaa-4061-81eb-159f005f5ac5)
+    (property "Reference" "R1" (at 79.502 17.279 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10k" (at 79.502 19.819 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 79.502 22.352 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 79.502 22.352 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e42d695f-27a0-4710-861c-afc0df67dab3))
+    (pin "2" (uuid 0e027715-9b3f-4085-820f-dd3ccc3d539d))
+    (instances
+      (project "neato_delta_adapter"
+        (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
+          (reference "R1") (unit 1)
+        )
+      )
+      (project "esp32_breakout"
+        (path "/e24ae185-8f18-408c-aee8-f727519bade3"
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -1649,7 +1739,7 @@
     )
     (pin "1" (uuid efe44193-70ce-425a-ae62-0008de167564))
     (instances
-      (project "Neato_adapter"
+      (project "neato_delta_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "#PWR04") (unit 1)
         )
@@ -1681,7 +1771,7 @@
     (pin "1" (uuid f36b74de-f335-4eb5-a821-4b3f18963b4a))
     (pin "3" (uuid a4fcd96a-bde0-4c62-8258-aabca015116f))
     (instances
-      (project "Neato_adapter"
+      (project "neato_delta_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "Q1") (unit 1)
         )
@@ -1711,7 +1801,7 @@
     )
     (pin "1" (uuid be3e4a2e-ebcd-42ad-ba66-7913f7f0ab47))
     (instances
-      (project "Neato_adapter"
+      (project "neato_delta_adapter"
         (path "/c13da21a-388e-44a0-831a-aa3d56cf7c53"
           (reference "#PWR011") (unit 1)
         )
