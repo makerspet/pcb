@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\ilya\git\pcb\neato_delta_adapter\neato_delta_adapter.kicad_sch</source>
-    <date>3/8/2024 3:40:52 AM</date>
+    <date>3/9/2024 1:06:01 AM</date>
     <tool>Eeschema 7.0.9</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -113,6 +113,17 @@
       <property name="ki_keywords" value="r resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d14d7ea9-aaaa-4061-81eb-159f005f5ac5</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="neato_delta_adapter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>986953d0-7832-4e85-a3e9-56e05a60ab36</tstamps>
     </comp>
     <comp ref="U1">
       <value>DNP LM2596</value>
@@ -339,6 +350,7 @@
     <net code="5" name="/MOT_EN">
       <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R2" pin="2" pintype="passive"/>
     </net>
     <net code="6" name="/TX">
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
@@ -351,6 +363,7 @@
       <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="VIN-" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="VOUT-" pintype="passive"/>
     </net>

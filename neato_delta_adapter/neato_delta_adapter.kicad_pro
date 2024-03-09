@@ -443,7 +443,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "output/Neato_delta_adapter.step",
+      "step": "output/neato_delta_adapter.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

@@ -24,6 +24,7 @@ This [Arduino LDS library](https://github.com/kaiaai/LDS) supports all these sen
 ## v0.3.1
 - 10K resistor inline with Delta-2A/B/G TX
   - Delta-2A TX is 5V
+- pulldown resistor to fix Delta-2A FPN
 
 ## v0.3.0
 - added Delta-2G connector
