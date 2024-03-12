@@ -2,16 +2,16 @@
 <export version="E">
   <design>
     <source>C:\Users\ilya\git\pcb\esp32_breakout\esp32_breakout.kicad_sch</source>
-    <date>3/6/2024 11:09:19 PM</date>
+    <date>3/11/2024 11:44:43 PM</date>
     <tool>Eeschema 7.0.9</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>Maker's Pet ESP32 Breakout</title>
-        <company>Maker's Pet</company>
-        <rev>1.2.0</rev>
-        <date>2024-03-06</date>
+        <title>ESP32 Breakout</title>
+        <company>makerspet.com</company>
+        <rev>1.2.1</rev>
+        <date>2024-03-11</date>
         <source>esp32_breakout.kicad_sch</source>
-        <comment number="1" value="makerspet.com"/>
+        <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -202,7 +202,7 @@
       <tstamps>9565c3af-1924-471c-8465-82b3c3d89952</tstamps>
     </comp>
     <comp ref="R9">
-      <value>10k</value>
+      <value>20k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
       <property name="Sheetname" value=""/>

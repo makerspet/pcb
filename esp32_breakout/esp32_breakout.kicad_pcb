@@ -7,8 +7,8 @@
   (paper "A5")
   (title_block
     (title "ESP32 Breakout Board")
-    (date "2024-03-06")
-    (rev "1.2.0")
+    (date "2024-03-11")
+    (rev "1.2.1")
     (company "makerspet.com")
   )
 
@@ -101,7 +101,7 @@
   (net 3 "GND")
   (net 4 "/MOT_CW_RIGHT")
   (net 5 "Net-(J1-Pin_4)")
-  (net 6 "+24V")
+  (net 6 "Vdrive")
   (net 7 "/MOT_PWM_LEFT")
   (net 8 "/MOT_CW_LEFT")
   (net 9 "Net-(J2-Pin_4)")
@@ -175,7 +175,7 @@
     (pad "1" thru_hole rect (at -4.8 0 90) (size 3 3) (drill oval 1.2 1.7) (layers "*.Cu" "*.Mask")
       (net 20 "Net-(D2-K)") (pinfunction "A") (pintype "passive") (tstamp b6f0ed0d-59be-4a07-9238-6301276961a5))
     (pad "2" thru_hole circle (at 0 0 90) (size 3 3) (drill oval 1 1.5) (layers "*.Cu" "*.Mask")
-      (net 6 "+24V") (pinfunction "B") (pintype "passive") (tstamp 2571b7c8-61ec-4186-93d8-6f3bacfd827f))
+      (net 6 "Vdrive") (pinfunction "B") (pintype "passive") (tstamp 2571b7c8-61ec-4186-93d8-6f3bacfd827f))
     (pad "3" thru_hole circle (at 4.8 0 90) (size 3 3) (drill oval 1 1.5) (layers "*.Cu" "*.Mask")
       (net 29 "unconnected-(SW1-C-Pad3)") (pinfunction "C") (pintype "passive+no_connect") (tstamp d30140fb-883b-48f3-91c9-4aadefab5f5e))
     (model "C:/Users/ilya/git/pcb/step/SS-12D10L4.STEP"
@@ -755,7 +755,7 @@
     (pad "1" smd roundrect (at -0.825 0) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 28 "/BAT_ADC") (pintype "passive") (tstamp dacfc023-273e-40b2-a26b-ee829cc87f4e))
     (pad "2" smd roundrect (at 0.825 0) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 6 "+24V") (pintype "passive") (tstamp 905347bc-200d-40a2-a572-d5af1e4081e3))
+      (net 6 "Vdrive") (pintype "passive") (tstamp 905347bc-200d-40a2-a572-d5af1e4081e3))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -778,7 +778,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 17bf0efc-0d0c-40b7-b5db-ee53bebd24ec)
     )
-    (fp_text value "10k" (at 0 1.43 -360) (layer "F.Fab") hide
+    (fp_text value "20k" (at 0 1.43 -360) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cfa52184-b2d1-419a-ac48-ca36bcf44108)
     )
@@ -1333,7 +1333,7 @@
     (pad "4" thru_hole oval (at 6 0) (size 1.2 1.75) (drill 0.75) (layers "*.Cu" "*.Mask")
       (net 5 "Net-(J1-Pin_4)") (pinfunction "Pin_4") (pintype "passive") (tstamp d6132b66-90c8-48d7-8263-437d36cebe80))
     (pad "5" thru_hole oval (at 8 0) (size 1.2 1.75) (drill 0.75) (layers "*.Cu" "*.Mask")
-      (net 6 "+24V") (pinfunction "Pin_5") (pintype "passive") (tstamp de294da5-f8d9-486f-9468-5088d00ccc04))
+      (net 6 "Vdrive") (pinfunction "Pin_5") (pintype "passive") (tstamp de294da5-f8d9-486f-9468-5088d00ccc04))
     (model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1475,7 +1475,7 @@
     (pad "3" thru_hole circle (at 20 8.75 180) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask")
       (net 1 "+5V") (pinfunction "VOUT+") (pintype "power_out") (tstamp 3512de6b-bb21-4b21-85c0-d05097795ee4))
     (pad "4" thru_hole circle (at -20 8.75 180) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 6 "+24V") (pinfunction "VIN+") (pintype "power_in") (tstamp ebff4421-3b17-48ec-9e0c-3af3aff2d4e5))
+      (net 6 "Vdrive") (pinfunction "VIN+") (pintype "power_in") (tstamp ebff4421-3b17-48ec-9e0c-3af3aff2d4e5))
     (model "C:/Users/ilya/git/pcb/step/LM2596 DC-DC StepDown Converter v1.step"
       (offset (xyz 21.5 -0.5 12.5))
       (scale (xyz 1 1 1))
@@ -1871,7 +1871,7 @@
     (pad "4" thru_hole oval (at 6 0) (size 1.2 1.75) (drill 0.75) (layers "*.Cu" "*.Mask")
       (net 9 "Net-(J2-Pin_4)") (pinfunction "Pin_4") (pintype "passive") (tstamp caa4b64f-1799-439c-8795-3d656dd9919f))
     (pad "5" thru_hole oval (at 8 0) (size 1.2 1.75) (drill 0.75) (layers "*.Cu" "*.Mask")
-      (net 6 "+24V") (pinfunction "Pin_5") (pintype "passive") (tstamp 27bcad27-aca4-4300-a804-ae3b389b9ba2))
+      (net 6 "Vdrive") (pinfunction "Pin_5") (pintype "passive") (tstamp 27bcad27-aca4-4300-a804-ae3b389b9ba2))
     (model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1994,7 +1994,7 @@
   (gr_text "makerspet.com" (at 122.6566 66.294) (layer "F.SilkS") (tstamp 28d680b2-d6a1-44ac-bd31-f874af7cd995)
     (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify bottom))
   )
-  (gr_text "ESP32 Breakout PCB v1.2.0" (at 102.0826 81.5086) (layer "F.SilkS") (tstamp bfd40927-5065-475b-a946-bf75f407c668)
+  (gr_text "ESP32 Breakout PCB v1.2.1" (at 102.0826 81.5086) (layer "F.SilkS") (tstamp bfd40927-5065-475b-a946-bf75f407c668)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
   (gr_text "OFF" (at 158.1658 55.2958) (layer "F.SilkS") (tstamp ddced69e-4caf-4b02-8bfa-e73875f8c501)

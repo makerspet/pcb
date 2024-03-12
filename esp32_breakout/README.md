@@ -15,6 +15,9 @@
 
 # Change log
 
+## v1.2.1
+- 12V power support
+
 ## v1.2.0
 - changed JST PH extension connectors to JST ZH
 - changed JST PH 7-pin LDS connector to 6-pin
