@@ -626,13 +626,22 @@
     (uuid f38c5d21-7cfb-4c74-9fc1-734db58518b1)
   )
 
-  (text "HLS-LFCD2 Motor\nPWM\n5V" (at 54.61 60.198 0)
+  (text "Hitachi-LG\nHLS-LFCD2 Motor\n\nPWM\n5V" (at 54.61 60.198 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 438875b1-0a20-4f30-9392-3c5ce3786a14)
   )
   (text "HLS-LFCD2 Logic\nN/C\nRX\nGND\nPWM\nTX\n5V" (at 54.864 82.804 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 543d26f8-8e38-442e-9e97-874412c60d8f)
+  )
+  (text "HLS-LFCD2 Motor\n\nMOT-\nMOT+\nN/C\nRX\nGND\nMOT-\nTX\n5V" (at 53.848 36.322 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 66dd240e-499c-4885-beb9-15ad6a1fa446)
+  )
+  (text "To ESP32 Breakout\nBoard LDS connector\n\n5V\nGND\nMOT_EN\nTX"
+    (at 137.922 65.024 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 988fb174-7f58-4cd6-96fd-65156cf5d125)
   )
 
   (label "TX" (at 68.834 80.772 0) (fields_autoplaced)
