@@ -15,8 +15,16 @@
 
 # Change log
 
+## v1.3.0
+- added quadrature encoder and brushed motor support
+  - this includes the popular low-cost JGA25-370, N20 motors
+- brushed motors require an additional driver module board
+  - I recommend the L298N driver module due to its low cost, wide availability, 35V max voltage (i.e. exceeding 24V that we need). L298N handles 2A continuous and 3A peak (again, more than we need).
+  - However, [L298N](https://www.st.com/resource/en/datasheet/l298.pdf) is not the most efficient driver module out there. You can increase its efficiency (i.e. your robot's battery life) by using motors with higher voltage, i.e. 24V.
+
 ## v1.2.1
-- 12V power support
+- added support for 12V motors
+  - 9V to 24V, max 1A peak per motor
 
 ## v1.2.0
 - changed JST PH extension connectors to JST ZH
