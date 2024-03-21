@@ -108,7 +108,7 @@
   (pad "3" thru_hole oval (at 3 0) (size 1.03 1.73) (drill 0.73) (layers "*.Cu" "*.Mask") (tstamp fb3323f4-e6ca-4a4d-aabb-9404b8ba4ff2))
   (pad "4" thru_hole oval (at 4.5 0) (size 1.03 1.73) (drill 0.73) (layers "*.Cu" "*.Mask") (tstamp 5441dfa6-9c05-4352-b64b-4b92d326235f))
   (pad "5" thru_hole oval (at 6 0) (size 1.03 1.73) (drill 0.73) (layers "*.Cu" "*.Mask") (tstamp f605bdff-3256-4165-892f-a28b6563b484))
-  (model "C:/Users/ilya/git/snoopy/kicad/step/JST-B5B-ZR.step"
+  (model "C:/Users/ilya/git/pcb/step/JST-B5B-ZR.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
