@@ -4,3 +4,4 @@ pico_breakout_body/pico_breakout_body-backups/*.zip
 lds02rr_adapter/lds02rr_adapter-backups/*.zip
 neato_delta_adapter/neato_delta_adapter-backups/*.zip
 hls_adapter/hls_adapter-backups/*.zip
+pico_breakout_body/esp32_combined-backups/*.zip
