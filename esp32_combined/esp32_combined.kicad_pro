@@ -395,7 +395,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -412,7 +412,7 @@
     ]
   },
   "meta": {
-    "filename": "esp32_breakout.kicad_pro",
+    "filename": "esp32_combined.kicad_pro",
     "version": 1
   },
   "net_settings": {

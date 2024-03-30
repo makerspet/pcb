@@ -41,6 +41,8 @@
     (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp a59344b5-7033-4c0a-a1ab-79df049bd745))
   (fp_rect (start -18.63 13.95) (end 18.669 11.43)
     (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 54f857e1-6000-4b51-9332-88f35e878a7c))
+  (fp_line (start 23.669 -14.7) (end 23.669 14.7)
+    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp c92a12c1-94e8-49cc-a61e-ef838f98e2e3))
   (pad "1" thru_hole oval (at -17.78 12.7) (size 1.2 2) (drill 0.8) (layers "*.Cu" "*.Mask")
     (thermal_bridge_angle 45) (tstamp 64491f7e-afe0-4d87-81fb-f6c86144d337))
   (pad "2" thru_hole oval (at -15.24 12.7) (size 1.2 2) (drill 0.8) (layers "*.Cu" "*.Mask")
