@@ -64,7 +64,7 @@
   (pad "3" smd rect (at 20 -8.75) (size 3 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 871eae5a-86e9-4484-a716-65b8538004bb))
   (pad "4" smd rect (at -20 -8.75) (size 3 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 08273d32-9091-422f-902e-bca78cac619b))
   (model "C:/Users/ilya/git/pcb/step/LM2596 DC-DC StepDown Converter v1.step"
-    (offset (xyz 21.5 -0.5 12.5))
+    (offset (xyz 21.5 -0.5 11.4))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
