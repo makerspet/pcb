@@ -15,6 +15,11 @@
 
 # Change log
 
+## v0.3.0
+- DuPont host connector
+- single side assembly
+- alternative fan DuPont connection
+
 ## v0.2.1
 - changed host connector from JST PH to JST ZH
 - bugfix servo, touch sockets to headers
