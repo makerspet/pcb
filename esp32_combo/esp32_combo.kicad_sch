@@ -4926,7 +4926,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 149.86) (xy 176.53 149.86)
+			(xy 176.53 149.86) (xy 179.07 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5286,7 +5286,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 158.75) (xy 176.53 158.75)
+			(xy 176.53 158.75) (xy 179.07 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5376,7 +5376,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 161.29) (xy 173.99 158.75)
+			(xy 176.53 161.29) (xy 176.53 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5406,7 +5406,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 161.29) (xy 199.39 158.75)
+			(xy 201.93 161.29) (xy 201.93 158.75)
 		)
 		(stroke
 			(width 0)
@@ -6046,7 +6046,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 149.86) (xy 199.39 149.86)
+			(xy 199.39 149.86) (xy 201.93 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6086,7 +6086,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 158.75) (xy 199.39 158.75)
+			(xy 199.39 158.75) (xy 201.93 158.75)
 		)
 		(stroke
 			(width 0)
@@ -6186,7 +6186,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 147.32) (xy 173.99 149.86)
+			(xy 176.53 147.32) (xy 176.53 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6286,7 +6286,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 153.67) (xy 166.37 153.67)
+			(xy 149.86 153.67) (xy 171.45 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6426,7 +6426,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 147.32) (xy 199.39 149.86)
+			(xy 201.93 147.32) (xy 201.93 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6726,6 +6726,17 @@
 		)
 		(uuid "3550de88-ef8d-4f44-ba82-e8cd2427b88e")
 	)
+	(label "BAT_ADC"
+		(at 171.45 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "423831d8-3abf-4e75-8855-7501e90a61ef")
+	)
 	(label "M+LEFT"
 		(at 43.18 110.49 0)
 		(fields_autoplaced yes)
@@ -6879,17 +6890,6 @@
 			(justify left bottom)
 		)
 		(uuid "6bd02a78-ffdc-4137-8fa7-260dc95ea7d6")
-	)
-	(label "BAT_ADC"
-		(at 166.37 153.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6f3188dc-dddc-4f04-9a1f-b94db70080b7")
 	)
 	(label "LDS_RX"
 		(at 250.19 128.27 180)
@@ -7547,7 +7547,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 173.99 161.29 0)
+		(at 176.53 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7555,7 +7555,7 @@
 		(dnp no)
 		(uuid "0cb4d2ea-0d59-4152-b238-db5c77ea183c")
 		(property "Reference" "#PWR022"
-			(at 173.99 167.64 0)
+			(at 176.53 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7564,7 +7564,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 165.227 0)
+			(at 176.53 165.227 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7572,7 +7572,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 161.29 0)
+			(at 176.53 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7581,7 +7581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 161.29 0)
+			(at 176.53 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7590,7 +7590,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 161.29 0)
+			(at 176.53 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9478,7 +9478,7 @@
 	)
 	(symbol
 		(lib_id "Makerspet:LM2596 Module")
-		(at 186.69 144.78 0)
+		(at 189.23 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9486,7 +9486,7 @@
 		(dnp no)
 		(uuid "52cdcaac-17a7-4f0f-9aa0-5fceb925ea5e")
 		(property "Reference" "U3"
-			(at 186.69 145.034 0)
+			(at 189.23 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9494,7 +9494,7 @@
 			)
 		)
 		(property "Value" "LM2596 Module"
-			(at 186.944 164.084 0)
+			(at 189.484 164.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9502,7 +9502,7 @@
 			)
 		)
 		(property "Footprint" "Makerspet:LM2596 Module SMD"
-			(at 186.69 143.51 0)
+			(at 189.23 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9511,7 +9511,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 144.78 0)
+			(at 189.23 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9520,7 +9520,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 144.78 0)
+			(at 189.23 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9529,7 +9529,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 186.69 142.24 0)
+			(at 189.23 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9538,7 +9538,7 @@
 			)
 		)
 		(property "Link" "https://www.amazon.com/Zixtec-LM2596-Converter-Module-1-25V-30V/dp/B07VVXF7YX/"
-			(at 187.96 140.335 0)
+			(at 190.5 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9930,7 +9930,7 @@
 		(fields_autoplaced yes)
 		(uuid "6061fa91-21ef-4751-b7f6-0351b1c63811")
 		(property "Reference" "R6"
-			(at 152.4 156.21 0)
+			(at 152.4 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9938,8 +9938,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20k"
-			(at 152.4 158.75 0)
+		(property "Value" "20k 1%"
+			(at 152.4 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9991,7 +9991,7 @@
 	)
 	(symbol
 		(lib_id "power:Vdrive")
-		(at 173.99 147.32 0)
+		(at 176.53 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9999,7 +9999,7 @@
 		(dnp no)
 		(uuid "6b523240-8ef9-4606-a704-6723186c4271")
 		(property "Reference" "#PWR021"
-			(at 168.91 151.13 0)
+			(at 171.45 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10008,7 +10008,7 @@
 			)
 		)
 		(property "Value" "Vdrive"
-			(at 173.99 143.51 0)
+			(at 176.53 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10016,7 +10016,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 147.32 0)
+			(at 176.53 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10025,7 +10025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 147.32 0)
+			(at 176.53 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10034,7 +10034,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Vdrive\""
-			(at 173.99 147.32 0)
+			(at 176.53 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10712,10 +10712,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9565c3af-1924-471c-8465-82b3c3d89952")
 		(property "Reference" "R5"
-			(at 151.765 149.225 0)
+			(at 151.892 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10723,8 +10722,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "200k"
-			(at 151.765 151.765 0)
+		(property "Value" "200k 1%"
+			(at 151.892 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10911,7 +10910,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 199.39 161.29 0)
+		(at 201.93 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10919,7 +10918,7 @@
 		(dnp no)
 		(uuid "9eb990f6-ac49-444a-bd4e-790ed5ebdea1")
 		(property "Reference" "#PWR028"
-			(at 199.39 167.64 0)
+			(at 201.93 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10928,7 +10927,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.517 165.227 0)
+			(at 202.057 165.227 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10936,7 +10935,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 161.29 0)
+			(at 201.93 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10945,7 +10944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 161.29 0)
+			(at 201.93 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10954,7 +10953,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 161.29 0)
+			(at 201.93 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11815,7 +11814,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 199.39 147.32 0)
+		(at 201.93 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11824,7 +11823,7 @@
 		(fields_autoplaced yes)
 		(uuid "eab05d68-e92c-4845-aa74-d5e29854bae3")
 		(property "Reference" "#PWR027"
-			(at 199.39 151.13 0)
+			(at 201.93 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11833,7 +11832,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 199.39 143.51 0)
+			(at 201.93 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11841,7 +11840,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 147.32 0)
+			(at 201.93 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11850,7 +11849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 147.32 0)
+			(at 201.93 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11859,7 +11858,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 199.39 147.32 0)
+			(at 201.93 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
