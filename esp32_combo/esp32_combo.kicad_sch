@@ -10271,7 +10271,7 @@
 				)
 			)
 		)
-		(property "Value" "FS26"
+		(property "Value" "FS36"
 			(at 176.8475 125.984 0)
 			(effects
 				(font
@@ -10288,7 +10288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/good-ark-semiconductor/FS26/18667798"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/good-ark-semiconductor/FS36/18648966"
 			(at 176.53 129.54 0)
 			(effects
 				(font
