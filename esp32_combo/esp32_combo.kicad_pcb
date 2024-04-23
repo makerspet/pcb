@@ -9631,6 +9631,19 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "3A\nFUSE"
+		(at 52.7 32.6 0)
+		(layer "F.SilkS" knockout)
+		(uuid "29f793a7-ddd9-4a2d-bb06-90702fe451d8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "SCL"
 		(at 85.8 63.7032 0)
 		(layer "F.SilkS")
