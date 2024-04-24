@@ -6737,17 +6737,6 @@
 		)
 		(uuid "423831d8-3abf-4e75-8855-7501e90a61ef")
 	)
-	(label "M+LEFT"
-		(at 43.18 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "456f55c2-ca96-4161-9313-cdde9561fd01")
-	)
 	(label "GPIO18"
 		(at 162.56 39.37 180)
 		(fields_autoplaced yes)
@@ -6879,17 +6868,6 @@
 			(justify right bottom)
 		)
 		(uuid "69589e87-cc6b-417b-9388-b5a361a216b2")
-	)
-	(label "M-LEFT"
-		(at 43.18 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6bd02a78-ffdc-4137-8fa7-260dc95ea7d6")
 	)
 	(label "LDS_RX"
 		(at 250.19 128.27 180)
@@ -7188,6 +7166,17 @@
 		)
 		(uuid "c08f2da4-6c92-4b81-bea5-1c76328a98a1")
 	)
+	(label "M+LEFT"
+		(at 43.18 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c380d9b6-00a3-4811-8a6d-c23c39682555")
+	)
 	(label "GPIO39_IN"
 		(at 13.97 29.21 0)
 		(fields_autoplaced yes)
@@ -7231,6 +7220,17 @@
 			(justify right bottom)
 		)
 		(uuid "cb09c9c0-034f-446d-9c21-cedd7c6f21b3")
+	)
+	(label "M-LEFT"
+		(at 43.18 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc2a10d1-16e1-4e9d-9d3a-50f662396f7a")
 	)
 	(label "I2C_SCL"
 		(at 162.56 26.67 180)

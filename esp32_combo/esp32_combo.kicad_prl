@@ -24,7 +24,7 @@
       "pads": false,
       "text": false,
       "tracks": true,
-      "vias": false,
+      "vias": true,
       "zones": false
     },
     "visible_items": [
@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "ffcffff_7fffffff",
+    "visible_layers": "ffcffcf_ffffffff",
     "zone_display_mode": 1
   },
   "git": {
