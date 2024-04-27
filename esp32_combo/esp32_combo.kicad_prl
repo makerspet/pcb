@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 37,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -22,9 +22,9 @@
       "lockedItems": false,
       "otherItems": false,
       "pads": false,
-      "text": false,
-      "tracks": true,
-      "vias": true,
+      "text": true,
+      "tracks": false,
+      "vias": false,
       "zones": false
     },
     "visible_items": [
@@ -64,8 +64,8 @@
       39,
       40
     ],
-    "visible_layers": "ffcffcf_ffffffff",
-    "zone_display_mode": 1
+    "visible_layers": "ffcffef_7ffffffe",
+    "zone_display_mode": 0
   },
   "git": {
     "repo_password": "",
