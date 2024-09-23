@@ -6,7 +6,7 @@ Please visit the [Support Forum](https://github.com/makerspet/support/discussion
 - ESP32 breakout [board](/esp32_breakout/)
 - Raspberry Pi Pico breakout [board](/pico_breakout_head/) for robot's head
 - Raspberry Pi Pico breakout [board](/pico_breakout_body/) for robot's lower body (TODO)
-- adapter [board](/lds02rr_adapter/) for Xiaomi 1st gen LDS02RR and Xiaomi 2nd gen LDS01RR laser distance scan sensors
+- adapter [board](/lds02rr_adapter/) for Xiaomi 1st gen LDS02RR and Xiaomi 2nd gen LDS01RR laser distance scan sensors - [available for purchase](https://makerspet.com/store#!/Adapter-for-LDS02RR-LiDAR/p/697091363) from the Maker's Pet online store
 - adapter [board](/neato_delta_adapter/) for Neato XV11, 3irobotix Delta-2A, Delta-2B and Delta-2G laser distance scan sensors
 - adapter [board](/hls_adapter/) for Hitachi-LG HLS-LFCD2
 
