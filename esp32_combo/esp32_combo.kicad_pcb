@@ -54,7 +54,7 @@
 			(usegerberextensions no)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -8761,13 +8761,13 @@
 	)
 	(footprint "Makerspet:Maker's Pet Logo 7mm"
 		(layer "B.Cu")
-		(uuid "7bba647d-62ad-4e2b-bb83-c02979cbe4cf")
-		(at 119.9896 40.2082 180)
+		(uuid "721c8082-8016-491d-a6b6-2dcf49b00207")
+		(at 81.188602 51.8 180)
 		(property "Reference" "G***"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "18ab76df-cae1-4424-83ff-efece0ff661e")
+			(uuid "34c91a9b-a6c2-4b8a-b3a9-7c6c30c1656a")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -8777,10 +8777,10 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 0.75 0 0)
+			(at 0.75 0 180)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "f15a54d1-8c1f-4954-a4f5-dea518940e7f")
+			(uuid "18057794-8797-43d0-bcd3-3cee4fe4e010")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -8790,39 +8790,42 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "B.Fab")
 			(hide yes)
-			(uuid "2edcb8e2-33da-4159-9909-8a8cd32dbc76")
+			(uuid "af886ed5-2a07-4462-9298-69f36a10cd46")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "B.Fab")
 			(hide yes)
-			(uuid "f28bb280-ce2c-4881-80dc-a01731fca6ba")
+			(uuid "8ff48740-6189-4342-9ecc-d7901adc7740")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Description" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "B.Fab")
 			(hide yes)
-			(uuid "5f2f1145-fa19-46b1-8974-688ed7b6734a")
+			(uuid "06a6d440-be52-4ea4-82b9-75049fbde853")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify mirror)
 			)
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
@@ -8839,7 +8842,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "4bf3364f-047a-4d4b-b83d-592d29995d1e")
+			(uuid "acb235d5-c474-4b2a-b61f-0638cb81f0fa")
 		)
 		(fp_poly
 			(pts
@@ -8857,7 +8860,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "4466303a-8c93-4813-a876-af9406fd6cf4")
+			(uuid "620c53a7-69aa-4c37-8960-23fd5520e83e")
 		)
 		(fp_poly
 			(pts
@@ -8878,7 +8881,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "7760f64e-c1e7-4722-902d-6b0f29d2b197")
+			(uuid "2492c1e4-5b3c-4f48-a31c-b766ded98f0e")
 		)
 		(fp_poly
 			(pts
@@ -8904,7 +8907,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "941b52c8-85a5-476e-9d60-eda0be0938de")
+			(uuid "1c3c97fc-deb3-4ec3-a167-dfc808159455")
 		)
 		(fp_poly
 			(pts
@@ -8928,7 +8931,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "85c017a2-248e-420b-ba6f-8366710786d7")
+			(uuid "39ac3112-3cd8-4f9e-abf4-6dc2c8ca6d4c")
 		)
 		(fp_poly
 			(pts
@@ -8953,7 +8956,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "9e90079a-1b2e-4ff6-b4b8-1006efaf60b7")
+			(uuid "f7204724-8831-44ba-b353-7018d515fe6a")
 		)
 		(fp_poly
 			(pts
@@ -8980,7 +8983,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "bc1d917a-b90e-4d63-82c0-6fb7beb484e8")
+			(uuid "c3f883d7-f6b9-4fd1-adbe-c68e25b6d51b")
 		)
 		(fp_poly
 			(pts
@@ -9016,7 +9019,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "c65fb48b-2ec1-4a0f-a837-69808fbfa6e5")
+			(uuid "b202d3ec-2fef-4a80-8054-18dfa22fc3d7")
 		)
 		(fp_poly
 			(pts
@@ -9057,7 +9060,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "76f1a13e-316e-4895-83ba-db3e97409781")
+			(uuid "4fbaad0b-5a39-49b5-90ae-a9c07cf7df31")
 		)
 		(fp_poly
 			(pts
@@ -9096,7 +9099,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "ecdde62e-3bfa-4546-a6e9-8207d5459a95")
+			(uuid "041c1b5e-e9f0-4f35-8da7-df430e94b4fb")
 		)
 		(fp_poly
 			(pts
@@ -9132,7 +9135,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "58ad6bb7-ffba-4dce-8347-daa311670c11")
+			(uuid "e410e60e-8e8a-4f18-a889-c770c621f24f")
 		)
 		(fp_poly
 			(pts
@@ -9329,7 +9332,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "36bbe6ad-e7f7-4e5f-882d-3b3fac714d85")
+			(uuid "fa273180-ec8d-4833-915e-f5a839a6d5c2")
 		)
 	)
 	(gr_rect
@@ -9354,10 +9357,49 @@
 		(layer "Edge.Cuts")
 		(uuid "181b5630-095b-4328-b1ce-a6f79a42db68")
 	)
-	(gr_text "MakersCOMBO v1.0"
-		(at 116.586 41.91 0)
+	(gr_text "MAKERSPET.COM"
+		(at 78.394602 51.2984 -0)
+		(layer "B.SilkS")
+		(uuid "08885e64-0462-40e7-bd04-95e25169d0a3")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Compatible with KAIA.AI"
+		(at 78.213602 54.7 -0)
+		(layer "B.SilkS")
+		(uuid "12e7e7d2-18ed-4cf6-bc21-a1fcb8f2905b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "COMBO v1.0"
+		(at 78.013602 53 -0)
 		(layer "B.SilkS" knockout)
-		(uuid "89514d23-3bfd-4947-a835-d84c91872116")
+		(uuid "379518c7-9db9-49db-8c9c-9eb46bc069cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Battery voltage\n9..12V if using TB6612FNG\n9..24V with TB6612FNG removed\nMax current 3A"
+		(at 119 44.4 0)
+		(layer "B.SilkS")
+		(uuid "3c3cb015-48e8-4e0c-a337-7883c38c9ec4")
 		(effects
 			(font
 				(size 1 1)
@@ -9368,26 +9410,14 @@
 		)
 	)
 	(gr_text "©2024"
-		(at 102 41.91 0)
+		(at 68.513602 53 -0)
 		(layer "B.SilkS")
-		(uuid "91c17d3a-33b5-4d95-b2b1-9fa7f8cce75f")
+		(uuid "5ca58076-ce74-4493-8a31-f840e0596de7")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.2)
+				(thickness 0.25)
 				(bold yes)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "MAKERSPET.COM"
-		(at 116.9416 39.8526 0)
-		(layer "B.SilkS")
-		(uuid "c6d6e45b-bffb-41b6-a0c6-c433fd7bb2e3")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.3)
 			)
 			(justify left bottom mirror)
 		)
@@ -9674,7 +9704,7 @@
 		)
 	)
 	(gr_text "©2024"
-		(at 75.3 54.1828 0)
+		(at 70.4 53.1 0)
 		(layer "F.SilkS")
 		(uuid "491018ff-0432-4686-9ed2-e4d120f35c7a")
 		(effects
@@ -9838,8 +9868,8 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "MakersCOMBO 1.0"
-		(at 60.9 54.1828 0)
+	(gr_text "COMBO v1.0"
+		(at 60.9 53.1 0)
 		(layer "F.SilkS" knockout)
 		(uuid "73bc0b0c-81f3-4d5e-a128-efa9494a8edf")
 		(effects
@@ -10220,13 +10250,26 @@
 		)
 	)
 	(gr_text "MAKERSPET.COM"
-		(at 60.519 51.7984 0)
+		(at 60.519 51.3984 0)
 		(layer "F.SilkS")
 		(uuid "edaa7eb5-be9d-45c3-8484-dbf9cf1f406f")
 		(effects
 			(font
 				(size 2 2)
 				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Compatible with KAIA.AI"
+		(at 60.7 54.8 0)
+		(layer "F.SilkS")
+		(uuid "f62aecfa-e3b4-4259-a9a9-8e038d7e8734")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -15134,15 +15177,14 @@
 				(xy 50.744297 49.326883) (xy 50.737819 49.320851) (xy 46.117516 44.700548) (xy 46.084031 44.639225)
 				(xy 46.087491 44.573862) (xy 46.089999 44.566297) (xy 46.1005 44.463508) (xy 46.1005 42.8745) (xy 46.120185 42.807461)
 				(xy 46.172989 42.761706) (xy 46.2245 42.7505) (xy 49.437771 42.7505) (xy 49.50481 42.770185) (xy 49.525452 42.786819)
-				(xy 49.617048 42.878415) (xy 49.617049 42.878416) (xy 49.685739 42.947106) (xy 49.721585 42.982952)
-				(xy 49.844498 43.06508) (xy 49.844511 43.065087) (xy 49.981082 43.121656) (xy 49.981087 43.121658)
-				(xy 49.981091 43.121658) (xy 49.981092 43.121659) (xy 50.126079 43.1505) (xy 50.126082 43.1505)
-				(xy 50.737769 43.1505) (xy 50.804808 43.170185) (xy 50.82545 43.186818) (xy 50.931344 43.292712)
-				(xy 51.080666 43.384814) (xy 51.247203 43.439999) (xy 51.349991 43.4505) (xy 52.050008 43.450499)
-				(xy 52.050016 43.450498) (xy 52.050019 43.450498) (xy 52.141245 43.441179) (xy 52.152797 43.439999)
-				(xy 52.319334 43.384814) (xy 52.468656 43.292712) (xy 52.592712 43.168656) (xy 52.684814 43.019334)
-				(xy 52.739999 42.852797) (xy 52.7505 42.750009) (xy 52.750499 42.434449) (xy 52.770183 42.367412)
-				(xy 52.822987 42.321657) (xy 52.892146 42.311713)
+				(xy 49.72158 42.982948) (xy 49.721584 42.982951) (xy 49.844498 43.06508) (xy 49.844511 43.065087)
+				(xy 49.981082 43.121656) (xy 49.981087 43.121658) (xy 49.981091 43.121658) (xy 49.981092 43.121659)
+				(xy 50.126079 43.1505) (xy 50.126082 43.1505) (xy 50.273917 43.1505) (xy 50.737769 43.1505) (xy 50.804808 43.170185)
+				(xy 50.82545 43.186818) (xy 50.931344 43.292712) (xy 51.080666 43.384814) (xy 51.247203 43.439999)
+				(xy 51.349991 43.4505) (xy 52.050008 43.450499) (xy 52.050016 43.450498) (xy 52.050019 43.450498)
+				(xy 52.141245 43.441179) (xy 52.152797 43.439999) (xy 52.319334 43.384814) (xy 52.468656 43.292712)
+				(xy 52.592712 43.168656) (xy 52.684814 43.019334) (xy 52.739999 42.852797) (xy 52.7505 42.750009)
+				(xy 52.750499 42.434449) (xy 52.770183 42.367412) (xy 52.822987 42.321657) (xy 52.892146 42.311713)
 			)
 		)
 		(filled_polygon
